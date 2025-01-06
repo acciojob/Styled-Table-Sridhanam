@@ -2,14 +2,122 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>CBSE Result Sheet</title>
+    <style>
+        /* Table Styling */
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            border: 2px solid #333;
+        }
+        
+        /* Header Styling */
+        thead {
+            background-color: #4CAF50;
+            color: white;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            font-size: 18px;
+        }
+
+        /* Alternating Row Colors */
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #e9f7ef;
+        }
+
+        /* Hover Effect */
+        tbody tr:hover {
+            background-color: #ddd;
+        }
+
+        /* Caption Styling */
+        caption {
+            font-size: 24px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <!-- add table here -->
+    <!-- Styled Table -->
+    <table>
+        <!-- Caption -->
+        <caption>CBSE Class 12 Results - 2024</caption>
 
-        
+        <!-- Table Head -->
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Roll Number</th>
+                <th>Mathematics</th>
+                <th>Science</th>
+                <th>English</th>
+                <th>Total Marks</th>
+                <th>Result</th>
+            </tr>
+        </thead>
+
+        <!-- Table Body -->
+        <tbody>
+            <tr>
+                <td>Aarav Sharma</td>
+                <td>1023</td>
+                <td>92</td>
+                <td>89</td>
+                <td>95</td>
+                <td>276</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>Sanya Gupta</td>
+                <td>1045</td>
+                <td>85</td>
+                <td>90</td>
+                <td>88</td>
+                <td>263</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>Rahul Verma</td>
+                <td>1089</td>
+                <td>76</td>
+                <td>80</td>
+                <td>85</td>
+                <td>241</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>Anjali Nair</td>
+                <td>1102</td>
+                <td>95</td>
+                <td>98</td>
+                <td>94</td>
+                <td>287</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>Vikram Singh</td>
+                <td>1121</td>
+                <td>58</td>
+                <td>60</td>
+                <td>62</td>
+                <td>180</td>
+                <td>Fail</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
